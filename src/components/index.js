@@ -8,6 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import PresnolWork from './PresnolWork';
 
 
 export {
@@ -19,9 +20,10 @@ export {
   Works,
   Feedbacks,
   Contact,
+  PresnolWork,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 
-  ComputersCanvas, 
+  ComputersCanvas,
   StarsCanvas
 };
