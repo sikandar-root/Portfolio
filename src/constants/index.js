@@ -94,22 +94,6 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
-  // {
-  //   name: "React JS",
-  //   icon: reactjs,
-  // },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -150,24 +134,11 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "Sr. Unreal engine Game Developer",
-  //   company_name: "Artyfact",
-  //   icon: artyfact,
-  //   iconBg: "#383E56",
-  //   date: "Nov. 2022 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using Unreal Engine and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-platform compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
     title: "Unreal engine Game Developer",
     company_name: "SDLC Corp",
     icon: sdlccorp,
-    iconBg: "#383E56",
+    iconBg: "#095e8b",
     date: "March 2022 - Present",
     points: [
       "Developing and maintaining web applications using Unreal Engine and other related technologies.",
@@ -180,7 +151,7 @@ const experiences = [
     title: "Unreal engine Game Developer ",
     company_name: "Aimedis B.V.",
     icon: aimedis,
-    iconBg: "#E6DEDD",
+    iconBg: "#0f5029",
     date: "Aug 2022 - Feb 2023",
     points: [
       "Developing and maintaining web applications using Unreal Engine and other related technologies.",
@@ -189,62 +160,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
-
-
-
-  
-  // {
-  //   testimonial:
-  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //   name: "Sara Lee",
-  //   designation: "CFO",
-  //   company: "Acme Co",
-  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
-  // },
-  // {
-  //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: "Chris Brown",
-  //   designation: "COO",
-  //   company: "DEF Corp",
-  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-  // },
-  // {
-  //   testimonial:
-  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
-
 
 const projects = [
   {
@@ -312,9 +228,7 @@ const projects = [
   },
 ];
 
-const testimonials = [
-  
-];
+
 const PresnolWork = [
   {
     name: "PUBG Clone",
@@ -322,7 +236,7 @@ const PresnolWork = [
       "Developed a PUBG-inspired game using Unreal Engine, implementing core mechanics such as battle royale gameplay, weapon systems, and multiplayer functionality. Leveraged Unreal Engine's robust tools for realistic graphics and immersive environments. Successfully replicated key features of PUBG while adding unique elements to create an engaging gameplay experience.",
     tags: [
       {
-        name: "Unreal Engine 5.0",
+        name: "Unreal Engine 4.24",
         color: "blue-text-gradient",
       },
       {
@@ -343,7 +257,7 @@ const PresnolWork = [
       "Developed a MapleStory-inspired game using Unreal Engine, integrating classic MMORPG mechanics such as character customization, questing, and multiplayer interactions. Utilized Unreal Engine's advanced features for creating vibrant 2D environments and fluid animations. Captured the essence of MapleStory while introducing fresh gameplay elements for an enjoyable player experience.",
     tags: [
       {
-        name: "Unreal Engine 5.0",
+        name: "Unreal Engine 4.27",
         color: "blue-text-gradient",
       },
       {
@@ -359,4 +273,4 @@ const PresnolWork = [
     source_code_link: "https://github.com/",
   },
 ]
-export { services, technologies, experiences, testimonials, projects,PresnolWork };
+export { services, technologies, experiences, projects,PresnolWork };
